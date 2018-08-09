@@ -1,0 +1,39 @@
+/* Empty. Add your own CSS if you like */
+#circle{
+	margin-top: 10% !important;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#numstyle{
+	position: absolute;
+	margin-top: 27%;
+	margin-left:26%;
+	color: #45CCCE;
+}
+
+#btns{
+	width: 100%;
+	padding: 0 10%;
+}
+
+#btns button:first-child{
+	float: left;
+	width: 40%;
+}
+
+#btns button:last-child{
+	float: right;
+	width: 40%;
+}
+
+#btns:after{
+	clear:both;
+	content: '';
+	display: block;
+}
+
+#inputarea{
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
